@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>wfy-eureka</module>
+        <module>wfy-config</module>
     </modules>
 
 
@@ -68,6 +69,8 @@
                 <artifactId>elasticsearch</artifactId>
                 <version>6.2.1</version>
             </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
