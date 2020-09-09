@@ -4,9 +4,9 @@ import lombok.Data;
 
 //资格证书表
 @Data
-public class tb_certificate {
+public class Certificate {
     //资格证书id
-    private Integer certificate_id;
+    private Integer certificateId;
     //资格证书名称
-    private String certificate_name;
+    private String certificateName;
 }

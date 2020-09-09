@@ -4,10 +4,10 @@ import lombok.Data;
 
 //社交主页表
 @Data
-public class tb_social {
+public class Social {
 
     //社交主页id
-    private Integer social_id;
+    private Integer socialId;
     //社交主页地址
-    private String social_name;
+    private String socialName;
 }
