@@ -44,6 +44,7 @@
         <dependency>
             <groupId>cn.lcd</groupId>
             <artifactId>wfy-pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -51,6 +52,7 @@
             <artifactId>wfy-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
 
 
     </dependencies>
