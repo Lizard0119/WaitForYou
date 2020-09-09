@@ -13,6 +13,9 @@
         <module>wfy-config</module>
         <module>wfy-pojo</module>
         <module>wfy-search</module>
+        <module>wfy-resume</module>
+        <module>wfy-utils</module>
+        <module>wfy-sendmail</module>
     </modules>
 
 
