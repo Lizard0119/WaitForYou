@@ -1,8 +1,12 @@
 package cn.lcd.resume.pojo;
 
-import com.mysql.fabric.xmlrpc.base.Data;
+
+import lombok.Data;
+
+import java.util.Date;
 
 //教育经历
+@Data
 public class tb_resumeeducatione {
 
     //教育经历id
@@ -17,8 +21,11 @@ public class tb_resumeeducatione {
     //专业
     private String resumeeducatione_major;
 
-    //时间段
-    private Data resumeeducatione_time;
+    //结束时间
+    private Date resumeeducatione_lasttime;
+
+    //开始时间
+    private Date resumeeducatione_beforetime;
 
     //在校经历
     private String resumeeducatione_experience;
