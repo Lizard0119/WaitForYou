@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>wfy-config</artifactId>
+
     <dependencies>
         <!--springcloudconfig的服务端的pom依赖-->
         <dependency>
