@@ -12,6 +12,7 @@
         <module>wfy-eureka</module>
         <module>wfy-config</module>
         <module>wfy-pojo</module>
+        <module>wfy-resume</module>
     </modules>
 
 
