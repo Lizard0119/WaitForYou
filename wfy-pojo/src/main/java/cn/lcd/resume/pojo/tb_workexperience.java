@@ -1,6 +1,9 @@
 package cn.lcd.resume.pojo;
 
 import lombok.Data;
+
+import java.util.Date;
+
 //工作经历表
 @Data
 public class tb_workexperience {
@@ -11,8 +14,10 @@ public class tb_workexperience {
     private String workexperience_company;
     //所在行业
     private String workexperience_industry;
-    //在职时间
-    private String workexperience_workingtime;
+    //在职开始时间
+    private Date workexperience_workingtimebegin;
+    //在职结束时间
+    private Date workexperience_workingtimeend;
     //职位类型
     private String workexperience_type;
     //所属部门
