@@ -1,4 +1,4 @@
-package service.impl;
+package com.hz.listen;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -6,8 +6,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.stereotype.Service;
-import service.EmailService;
+import org.springframework.stereotype.Component;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -16,15 +15,17 @@ import java.util.concurrent.TimeUnit;
  * @author Hz
  * 2020/9/9
  */
-@Service
-public class EmailServiceImpl implements EmailService {
+
+@Component
+public class Emaillisten {
     @Value("${spring.mail.username}")
     private String MAIL_SENDER;
     @Autowired
     JavaMailSender javaMailSender;
     @Autowired
     RedisTemplate redisTemplate;
-    @Override
+
+
     public String sendEmail(String email) {
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
         simpleMailMessage.setFrom(MAIL_SENDER);
