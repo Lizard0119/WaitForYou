@@ -70,7 +70,8 @@
                 <artifactId>elasticsearch</artifactId>
                 <version>6.2.1</version>
             </dependency>
-<!--my-->
+            <!--my-->
+            <!--my-->
 
         </dependencies>
     </dependencyManagement>
