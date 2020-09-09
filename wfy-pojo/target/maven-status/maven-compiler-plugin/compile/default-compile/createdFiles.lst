@@ -1,1 +1,6 @@
 a.class
+cn\lcd\resume\tb_resumeeducatione.class
+cn\lcd\resume\tb_user_resumeeducatione.class
+cn\lcd\resume\tb_projectexperience.class
+cn\lcd\resume\tb_user_projectexperience.class
+cn\lcd\resume\tb_intention.class
