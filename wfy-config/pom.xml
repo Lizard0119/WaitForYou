@@ -10,7 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>wfy-config</artifactId>
-<<<<<<< Updated upstream
     <dependencies>
         <!--springcloudconfig的服务端的pom依赖-->
         <dependency>
@@ -23,8 +22,5 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
     </dependencies>
-=======
-
->>>>>>> Stashed changes
 
 </project>
