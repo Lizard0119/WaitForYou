@@ -10,11 +10,12 @@
         xml中的每个节点的id必须为接口的方法名
 
 -->
+
 <mapper namespace="cn.lcd.ResumeDao">
-    <select id="findResuemByUserName" resultType="tb_resume">
-        select * from tb_user u
-            inner join tb_user_resume b on u.id = b.uid
-            inner join tb_resme y on y.id = b.uid
-            where u.uid = #{uid}
+    <select id="findResuemByUserName" resultType="tb_intention">
+        select y.* from tb_user u
+            inner join tb_user_intention b on u.user_id = b.user_id
+            inner join tb_intention y on b.intention_id = y.intention_id
+            where u.user_id = #{user_id}
     </select>
 </mapper>

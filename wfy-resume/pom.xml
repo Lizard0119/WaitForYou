@@ -41,6 +41,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-client</artifactId>
         </dependency>
+        <dependency>
+            <groupId>cn.lcd</groupId>
+            <artifactId>wfy-pojo</artifactId>
+        </dependency>
 
 
     </dependencies>
